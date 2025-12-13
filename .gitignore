@@ -7,10 +7,11 @@
 docker-compose.override.yml
 
 # Directus
-uploads/
 database/
-extensions/
-# Keep .gitkeep if needed, otherwise ignore contents
+# extensions/ -> Tracked
+# uploads/ -> Tracked
+
+# Keep .gitkeep to ensure folders exist
 !extensions/.gitkeep
 !uploads/.gitkeep
 
