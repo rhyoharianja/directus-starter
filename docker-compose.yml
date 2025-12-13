@@ -1,0 +1,15 @@
+version: '3'
+services:
+  directus:
+    build:
+      context: .
+      args:
+        USE_PM2: ${USE_PM2}
+    ports:
+      - 8899:8899
+    volumes:
+      - ./uploads:/directus/uploads
+      - ./extensions:/directus/extensions
+    env_file:
+      - .env
+    network_mode: bridge

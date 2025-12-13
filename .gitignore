@@ -1,0 +1,28 @@
+# Environment Variables
+.env
+.env.production
+.env.local
+
+# Docker
+docker-compose.override.yml
+
+# Directus
+uploads/
+database/
+extensions/
+# Keep .gitkeep if needed, otherwise ignore contents
+!extensions/.gitkeep
+!uploads/.gitkeep
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# System
+.DS_Store
+Thumbs.db
+
+# PM2 Logs
+.pm2/
+logs/
