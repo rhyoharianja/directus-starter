@@ -8,6 +8,7 @@ A production-ready Directus setup using Docker, featuring optional PM2 process m
 - **PM2 Integration**: Optional process manager for clustering, auto-restarts, and monitoring (`USE_PM2=true`).
 - **Production Ready**: Pre-configured with best practices for caching (Redis), logging, rate limiting, and security.
 - **External Dependencies**: Designed to connect to existing external Database and Redis services.
+- **Advanced Scaling**: See [Cross Auto Scale Guide](CROSS_AUTO_SCALE.md) for Vertical + Horizontal scaling strategies.
 
 ## Prerequisites
 
